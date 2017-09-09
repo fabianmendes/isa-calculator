@@ -1,5 +1,5 @@
 # isa-calculator
-A Python CODE under The Standard Atmosphere to calculate the temperature, pressure and density at some point until 105km of altitude. CODED at Spanish language (the comments and the entire program while running)!
+A Python CODE under The Standard Atmosphere to calculate the temperature, pressure and density at some point until 105km of altitude from the sea level or above. CODED at Spanish language (the comments and the entire program while running)!
 ---------------------------------------------------------------------------------------------------------------------------------
 The v.1 (version beta and alpha done, the first 'release' version).
 It calculates the temperature, pressure and density.
