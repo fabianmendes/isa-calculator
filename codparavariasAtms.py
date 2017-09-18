@@ -39,8 +39,8 @@ while True:  # para la hMAX
         h1 = abs(h1)
         if h1 > int(150000):
             print("Uy. Eso está pasando la 'Mesopause' (por allá en la Thermosphera o incluso más allá)"
-                  "\n Este programa trabaja básicamente con la International Standar Atmosphere (ISA)"
-                  "\n\t Por favor. Intentelo de nuevo, ¡y asegure su de Altitud!")
+                  "\n Este programa trabaja básicamente con la International Standard Atmosphere (ISA)"
+                  "\n\t Por favor. Intentelo de nuevo, ¡y asegure su distancia de Altitud!")
             continue
         else:
             break
@@ -63,7 +63,7 @@ try:  # para la hMIN
             continue
         else:
             h0 = abs(float(h0))
-            p0 = (input("Esta vez: Ingrese su Presión INICIAL [PaSCAL]: "))
+            p0 = (input("Esta vez. Ingrese su Presión INICIAL [PaSCAL]: "))
             p00 = bool(p0)
             if p00 != True:
                 p0 = 101325  # default
@@ -74,7 +74,7 @@ try:  # para la hMIN
             break
 except: print("Por favor, ingrese únicamente en Números.")
 finally: print("Recuerde que, hasta los momentos, no son aceptadas altitudes\n"
-               "\t que esten por debajo del nivel del mar.\n","km\n\t Altura MIN a usar \t: ",h0/1000,"km")
+               "\t que esten por debajo del nivel del mar.\n\t Altura MIN a usar \t: ",h0/1000,"km")
 
 h0 = h0
 nro = 1
@@ -125,3 +125,9 @@ print("\t\t AQUÍ TIENE SUS VALORES:"
      "\n Temperatura a", str(h1/1000),"km \t= ", T, "K"  #unsupported operand type(s) for +: 'float' and 'str'
      "\n Presión a dicha Altitud \t= ", P, "Pa"
      "\n Densidad en dicho punto \t= ", den1, "kg/(m^3)")
+
+# EUPLv1.1, 2017
+
+
+#TODO: a converter between Kelvin and Celius or Farenheit.. And other, open to ideas!
+#RECORDAR DEJAR QUE EL USUARIO PUEDA PEGAR UN DIGITO QUE TENGA COMAS (,) ... lo omita!
