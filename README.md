@@ -12,8 +12,11 @@ Entering:
 
   ... would be nice to improve this, first, to copy and paste a digit so if it has a (,) or point (.) identify it and get the right number, I mean if it has a (,) then the program should 'ignore it'. This version now what a (.) means and it is decimals, the problem I guess: comma.
 
- ![PyPI](https://img.shields.io/pypi/pyversions/Django.svg) ![](https://img.shields.io/badge/JetBrains-Pycharm-brightgreen.svg?style=flat)
+
   
 Always using The Standard Atmosphere. Learned from DelftX: AE1110x Introduction to Aeronautical Engineering; and Physics' Topics at Universidad Central de Venezuela (de la Facultad de Ingeniería [cod.0333])
+
+
+![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)  ![](https://img.shields.io/badge/JetBrains-Pycharm-brightgreen.svg?style=flat)
 
 <b>EUPLv1.1</b>, 2017
