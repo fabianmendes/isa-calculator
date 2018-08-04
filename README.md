@@ -12,4 +12,4 @@ Entering:
 
 Always using The Standard Atmosphere. Learned from DelftX: AE1110x Introduction to Aeronautical Engineering; and Physics' Topics at Universidad Central de Venezuela (de la Facultad de Ingeniería [cod.0333])
 
-<b>EUPLv1.2</b>, 2017
+<b>EUPLv1.1</b>, 2017
